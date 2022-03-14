@@ -19,7 +19,7 @@ Please use the following citation:
 
 This data extend the Will-They-Won't-They (WT-WT) dataset. WT-WT is a large dataset of English tweets targeted at stance detection for the rumor verification task. The dataset is constructed based on tweets that discuss five recent merger and acquisition (M&A) operations of US companies, mainly from the healthcare sector.
 
-For the four healthcare mergers, we obtain historical prices in 30-min intervals for the involved stocks. Each entry in the data has the following fields: *DateTime, Open, High, Low, Close, Volume*. DateTime is in US Eastern Time, in the format *YY-MM-DD h:m:s*. Only minutes with trading volume are included: times with zero volume, such as during weekends or holidays, are omitted. Prices are adjusted for dividends and splits.
+For the four healthcare mergers, we obtain historical prices in 30-min intervals for the involved stocks. Each entry in the data has the following fields: *DateTime, Open, High, Low, Close, Volume*. DateTime is in US Eastern Time, in the format ``YY-MM-DD h:m:s``. Only minutes with trading volume are included: times with zero volume, such as during weekends or holidays, are omitted. Prices are adjusted for dividends and splits.
 
 <br>
 
